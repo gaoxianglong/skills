@@ -63,6 +63,7 @@ com.gxl.plancore.{context}/
 | Controller 直接操作数据库 | 必须经 Application Service 编排 |
 | Application 包含核心业务逻辑 | 核心逻辑应放在 Domain 层 |
 | 外部 DTO 泄露到 Domain 层 | 外部服务返回的 DTO 必须在 ACL 中转换 |
+| 使用lambda表达式 | Java8的基础标准语法 |
 
 ## 六、详细参考资料
 
